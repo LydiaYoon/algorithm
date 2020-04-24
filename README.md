@@ -1,4 +1,5 @@
 # Algorithm
+**알고리즘 스터디**  
 ✅ 2020년 3월 14일부터 매주 토요일에 12시부터🕛 17시까지🕔 5시간동안 알고리즘 문제를 풀고 있습니다.  
 ✅ 현재는 LeetCode에서 Top Interview Questions (Easy Collection)를 풀고있습니다. 🔥
 <br/>
@@ -9,10 +10,11 @@
 <br/>
 <br/>
 <br/>  
-## LeetCode
-### Top Interview Questions (Easy Collection)
-| <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |
-| :--: | -- | :--: | :--: | :--: |
+
+## LeetCode  
+### Top Interview Questions (Easy Collection)  
+| <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |  
+| :--: | -- | :--: | :--: | :--: |  
 | 1 | [[Array] Intersection of Two Arrays II](./src/leet/Array/Solution6.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/674/ "문제 보기") |
 | 2 | [[Array] Plus One](./src/leet/Array/Solution7.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://github.com/LydiaYoon/Java-Algolithm/blob/master/src/leet/Array/Solution6.java "문제 보기") |
 | 3 | [[Array] Move Zeroes](./src/leet/Array/Solution8.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/567/ "문제 보기") |
@@ -35,14 +37,16 @@
 <br/>
 <br/>
 <br/>  
+
 ## Programmers  
-| <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |
-| :--: | -- | :--: | :--: | :--: |
-| 1 | [[데모 테스트] 프로그래밍 1](./src/programmers/DemoTest/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](./src/programmers/DemoTest/Question1.md "문제 보기") |
-| 2 | [[완전탐색] 모의고사](./src/programmers/BruteForce/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/42840 "문제 보기") |
+| <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |  
+| :--: | -- | :--: | :--: | :--: |  
+| 1 | [[데모 테스트] 프로그래밍 1](./src/programmers/DemoTest/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](./src/programmers/DemoTest/Question1.md "문제 보기") |  
+| 2 | [[완전탐색] 모의고사](./src/programmers/BruteForce/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/42840 "문제 보기") |  
 <br/>
 <br/>
 <br/>  
+
 ### 2019 카카오 개발자 겨울 인턴십  
 | <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |
 | :--: | -- | :--: | :--: | :--: |
