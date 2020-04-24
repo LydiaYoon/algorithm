@@ -9,7 +9,7 @@
 ## LeetCode
 ### Top Interview Questions (Easy Collection)
 | <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |
-| :--: | :-- | :--: | :--: | :--: |
+| :--: | -- | :--: | :--: | :--: |
 | 1 | [[Array] Intersection of Two Arrays II](./src/leet/Array/Solution6.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/674/ "문제 보기") |
 | 2 | [[Array] Plus One](./src/leet/Array/Solution7.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://github.com/LydiaYoon/Java-Algolithm/blob/master/src/leet/Array/Solution6.java "문제 보기") |
 | 3 | [[Array] Move Zeroes](./src/leet/Array/Solution8.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/567/ "문제 보기") |
@@ -35,13 +35,14 @@
 ---
 ## Programmers
 | <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |
-| :--: | :-- | :--: | :--: | :--: |
-| 1 | [[완전탐색] 모의고사](./src/programmers/BruteForce/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/42840 "문제 보기") |
+| :--: | -- | :--: | :--: | :--: |
+| 1 | [[데모 테스트] 프로그래밍 1](./src/programmers/DemoTest/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](./src/programmers/DemoTest/Question1.md "문제 보기") |
+| 2 | [[완전탐색] 모의고사](./src/programmers/BruteForce/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/42840 "문제 보기") |
 <br/>  
 <br/>  
 
 ### 2019 카카오 개발자 겨울 인턴십
 | <center>No</center> | <center>문제</center> | <center>난이도</center> | <center>프로그래밍 언어</center> | <center>문제출처</center> |
-| :--: | :-- | :--: | :--: | :--: |
+| :--: | -- | :--: | :--: | :--: |
 | 1 | [튜플](./src/kakao/Solution2.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/64065 "문제 보기") |
 | 2 | [불량 사용자](./src/kakao/Solution3.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/64064 "문제 보기") |
