@@ -27,12 +27,25 @@ public class Solution1 {
 		ListNode head = nodes[nodes.length-1];
 		
 		System.out.println("before : ");
-		System.out.println("[ " + head + " ] \n");
+		printNode(head);
 		
 //		solution.deleteNode(nodes[2]);
 		solution.deleteNode(nodes[1]);
 		
 		System.out.println("after : ");
-		System.out.println("[ " + head + " ] \n");
+		printNode(head);
+	}
+	
+	public static void printNode(ListNode head) {
+		System.out.print("[ ");
+		while (head != null) {
+			if (head.next != null) {
+				System.out.print(head + " ¡æ ");
+			} else {
+				System.out.print(head);
+			}		
+			head = head.next;
+		}
+		System.out.print(" ] \n");
 	}
 }

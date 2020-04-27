@@ -12,10 +12,6 @@ public class ListNode {
 
 	@Override
 	public String toString() {
-		if (next != null) {
-			return val + " ¡æ " + next;
-		} else {
-			return Integer.toString(val);
-		}
+		return Integer.toString(val);
 	}
 }

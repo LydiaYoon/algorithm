@@ -1,7 +1,5 @@
 package leet.LinkedList;
 
-import java.util.ArrayList;
-
 public class Solution3 {
 
 	public ListNode reverseList(ListNode head) {
@@ -70,14 +68,26 @@ public class Solution3 {
 		ListNode head = nodes[nodes.length - 1];
 
 		System.out.println("before : ");
-		System.out.println("[ " + head + " ]");
+		printNode(head);
 		System.out.println();
 
 		head = solution.reverseList3(head); // [5, 4, 3, 2, 1]
 
 		System.out.println();
 		System.out.println("after : ");
-		System.out.println("[ " + head + " ] \n");
+		printNode(head);
 	}
-
+	
+	public static void printNode(ListNode head) {
+		System.out.print("[ ");
+		while (head != null) {
+			if (head.next != null) {
+				System.out.print(head + " ¡æ ");
+			} else {
+				System.out.print(head);
+			}		
+			head = head.next;
+		}
+		System.out.print(" ] \n");
+	}
 }
