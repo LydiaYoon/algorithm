@@ -60,34 +60,19 @@ public class Solution3 {
 		Solution3 solution = new Solution3();
 
 		ListNode[] nodes = new ListNode[5];
-		nodes[0] = new ListNode(5, null);
-		nodes[1] = new ListNode(4, nodes[0]);
-		nodes[2] = new ListNode(3, nodes[1]);
-		nodes[3] = new ListNode(2, nodes[2]);
-		nodes[4] = new ListNode(1, nodes[3]);
-		ListNode head = nodes[nodes.length - 1];
+		NodeUtils.initNode(nodes, 1);
+		NodeUtils.connectNode(nodes);
+		ListNode head = nodes[0];
 
 		System.out.println("before : ");
-		printNode(head);
+		NodeUtils.printNode(head);
 		System.out.println();
 
 		head = solution.reverseList3(head); // [5, 4, 3, 2, 1]
 
 		System.out.println();
 		System.out.println("after : ");
-		printNode(head);
+		NodeUtils.printNode(head);
 	}
 	
-	public static void printNode(ListNode head) {
-		System.out.print("[ ");
-		while (head != null) {
-			if (head.next != null) {
-				System.out.print(head + " ¡æ ");
-			} else {
-				System.out.print(head);
-			}		
-			head = head.next;
-		}
-		System.out.print(" ] \n");
-	}
 }

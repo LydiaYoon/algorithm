@@ -20,32 +20,22 @@ public class Solution1 {
 		Solution1 solution = new Solution1();
 		
 		ListNode[] nodes = new ListNode[4];
-		nodes[0] = new ListNode(9, null);
-		nodes[1] = new ListNode(1, nodes[0]);
-		nodes[2] = new ListNode(5, nodes[1]);
-		nodes[3] = new ListNode(4, nodes[2]);
-		ListNode head = nodes[nodes.length-1];
+		
+		// TestCase 1
+		nodes[0] = new ListNode(4);
+		nodes[1] = new ListNode(5);
+		nodes[2] = new ListNode(1);
+		nodes[3] = new ListNode(9);
+		NodeUtils.connectNode(nodes);
+		ListNode head = nodes[0];
 		
 		System.out.println("before : ");
-		printNode(head);
+		NodeUtils.printNode(head);
 		
-//		solution.deleteNode(nodes[2]);
-		solution.deleteNode(nodes[1]);
+		solution.deleteNode(nodes[2]);
+//		solution.deleteNode(nodes[1]);
 		
 		System.out.println("after : ");
-		printNode(head);
-	}
-	
-	public static void printNode(ListNode head) {
-		System.out.print("[ ");
-		while (head != null) {
-			if (head.next != null) {
-				System.out.print(head + " ¡æ ");
-			} else {
-				System.out.print(head);
-			}		
-			head = head.next;
-		}
-		System.out.print(" ] \n");
+		NodeUtils.printNode(head);
 	}
 }

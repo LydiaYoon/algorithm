@@ -16,7 +16,7 @@ public class Solution5 {
 			}
 			if (newHead.next != null) {
 				int back = newHead.next.val;
-				System.out.println(front + ", " + back);
+				// System.out.println(front + ", " + back);
 				newHead.next = null;
 				head = head.next;
 
@@ -34,58 +34,77 @@ public class Solution5 {
 
 	public static void main(String[] args) {
 		Solution5 solution = new Solution5();
+		ListNode head = new ListNode();
 
+		// TestCase 1
 		// Input: [ 1, 2 ]
 		// Output: false
-//		ListNode[] input = new ListNode[2];
-//		input[0] = new ListNode(2, null);
-//		input[1] = new ListNode(1, input[0]);
+		ListNode[] case1 = new ListNode[2];
+		NodeUtils.initNode(case1, 1);
+		NodeUtils.connectNode(case1);
+		head = case1[0];
 
+		NodeUtils.printNode(head);
+		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
+
+		// TestCase 2
 		// Input: [ 1, 2, 2, 1 ]
 		// Output: true
-//		ListNode[] input = new ListNode[4];
-//		input[0] = new ListNode(1, null);
-//		input[1] = new ListNode(2, input[0]);
-//		input[2] = new ListNode(2, input[1]);
-//		input[3] = new ListNode(1, input[2]);
+		ListNode[] case2 = new ListNode[4];
+		case2[0] = new ListNode(1);
+		case2[1] = new ListNode(2);
+		case2[2] = new ListNode(2);
+		case2[3] = new ListNode(1);
+		NodeUtils.connectNode(case2);
+		head = case2[0];
 
+		NodeUtils.printNode(head);
+		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
+
+		// TestCase 3
 		// Input: []
 		// Output: true
+		ListNode case3 = null;
+		head = case3;
 
+		NodeUtils.printNode(head);
+		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
+
+		// TestCase 4
 		// Input: [ 1 ]
 		// Output: true;
-//		ListNode[] input = new ListNode[1];
-//		input[0] = new ListNode(1, null);
+		ListNode case4 = new ListNode(1);
+		head = case4;
 
+		NodeUtils.printNode(head);
+		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
+
+		// TestCase 5
 		// Input: [ 0, 0 ]
 		// output: true;
-//		ListNode[] input = new ListNode[2];
-//		input[0] = new ListNode(0, null);
-//		input[1] = new ListNode(0, input[0]);
+		ListNode[] case5 = new ListNode[2];
+		case5[0] = new ListNode(0);
+		case5[1] = new ListNode(0);
+		NodeUtils.connectNode(case5);
+		head = case5[0];
 
+		NodeUtils.printNode(head);
+		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
+
+		// TestCase 6
 		// Input: [ 1, 2, 2, 1 ]
 		// Output: true
-		ListNode[] input = new ListNode[3];
-		input[0] = new ListNode(1, null);
-		input[1] = new ListNode(0, input[0]);
-		input[2] = new ListNode(1, input[1]);
+		ListNode[] case6 = new ListNode[4];
+		case6[0] = new ListNode(1);
+		case6[1] = new ListNode(2);
+		case6[2] = new ListNode(2);
+		case6[3] = new ListNode(1);
+		NodeUtils.connectNode(case6);
+		head = case6[0];
 
-		ListNode head = input[input.length - 1];
-		printNode(head);
+		NodeUtils.printNode(head);
 		System.out.println("RES: " + solution.isPalindrome(head));
 
 	}
 
-	public static void printNode(ListNode head) {
-		System.out.print("[ ");
-		while (head != null) {
-			if (head.next != null) {
-				System.out.print(head + " ¡æ ");
-			} else {
-				System.out.print(head);
-			}
-			head = head.next;
-		}
-		System.out.print(" ] \n");
-	}
 }

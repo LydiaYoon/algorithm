@@ -11,6 +11,7 @@ public class Solution2 {
 		int length = 0;
 		ListNode listNode = head;
 
+		// 전체 탐색하여 길이를 구한다.
 		while (listNode != null) {
 			listNode = listNode.next;
 			length++;
@@ -22,6 +23,7 @@ public class Solution2 {
 			return head.next;
 		}
 
+		// 삭제할 위치 이전의 node로 찾아간다.
 		int index = length - n;
 		listNode = head;
 		while (index > 1) {
@@ -29,6 +31,7 @@ public class Solution2 {
 			index--;
 		}
 
+		// node를 삭제한다.
 		if (listNode.next.next != null) {
 			listNode.next = listNode.next.next;
 		} else {
@@ -42,46 +45,27 @@ public class Solution2 {
 		Solution2 solution = new Solution2();
 
 		// example 1
-		ListNode[] nodes = new ListNode[5];
-		nodes[0] = new ListNode(5, null);
-		nodes[1] = new ListNode(4, nodes[0]);
-		nodes[2] = new ListNode(3, nodes[1]);
-		nodes[3] = new ListNode(2, nodes[2]);
-		nodes[4] = new ListNode(1, nodes[3]);
-		ListNode head = nodes[nodes.length - 1];
-
-		System.out.println("before : ");
-		printNode(head);
-
-		head = solution.removeNthFromEnd(head, 2); // [1, 2, 3, 5]
-
-		System.out.println("after : ");
-		printNode(head);
-
-		// example 2
-		ListNode node = new ListNode(1, null);
-
-		System.out.println("before : ");
-		printNode(node);
-
-		node = solution.removeNthFromEnd(node, 1); // []
-
-		System.out.println("after : ");
-		printNode(node);
+		ListNode[] case1 = new ListNode[5];
+		NodeUtils.initNode(case1, 1);
+		NodeUtils.connectNode(case1);
+		ListNode head = case1[0];
 		
+		System.out.println("before : ");
+		NodeUtils.printNode(head);
+		head = solution.removeNthFromEnd(head, 2); // [1, 2, 3, 5]
+		System.out.println("after : ");
+		NodeUtils.printNode(head);
 
-	}
+		System.out.println();
+		
+		// example 2
+		ListNode case2 = new ListNode(1, null);
 
-	public static void printNode(ListNode head) {
-		System.out.print("[ ");
-		while (head != null) {
-			if (head.next != null) {
-				System.out.print(head + " �� ");
-			} else {
-				System.out.print(head);
-			}		
-			head = head.next;
-		}
-		System.out.print(" ] \n");
+		System.out.println("before : ");
+		NodeUtils.printNode(case2);
+		case2 = solution.removeNthFromEnd(case2, 1); // []
+		System.out.println("after : ");
+		NodeUtils.printNode(case2);
+		
 	}
 }
