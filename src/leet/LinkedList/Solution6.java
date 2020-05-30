@@ -2,6 +2,9 @@ package leet.LinkedList;
 
 import java.util.ArrayList;
 
+import leet.ListNode;
+import leet.NodeUtils;
+
 public class Solution6 {
 
 	public boolean hasCycle(ListNode head) {
@@ -31,7 +34,7 @@ public class Solution6 {
 		case1[1] = new ListNode(2);
 		case1[2] = new ListNode(0);
 		case1[3] = new ListNode(-4);
-		NodeUtils.connectNode(case1);
+		NodeUtils.connectListNode(case1);
 		case1[3].next = case1[1];
 		head = case1[0];
 
@@ -42,7 +45,7 @@ public class Solution6 {
 		ListNode[] case2 = new ListNode[2];
 		case2[0] = new ListNode(1);
 		case2[1] = new ListNode(2);
-		NodeUtils.connectNode(case2);
+		NodeUtils.connectListNode(case2);
 		case2[1].next = case2[0];
 		head = case2[0];
 
@@ -53,7 +56,7 @@ public class Solution6 {
 		ListNode case3 = new ListNode(1);
 		head = case3;
 
-		NodeUtils.printNode(case3);
+		NodeUtils.printListNode(case3);
 		System.out.println("RES: " + solution.hasCycle(head) + "\n\n");
 
 	}

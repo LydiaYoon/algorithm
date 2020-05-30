@@ -1,17 +1,17 @@
-package leet.LinkedList;
+package leet;
 
-public class ListNode {
-	int val;
-	ListNode next;
+public class ListNode implements Node {
+	public int val;
+	public ListNode next;
 
-	ListNode() {
+	public ListNode() {
 	}
 
-	ListNode(int val) {
+	public ListNode(int val) {
 		this.val = val;
 	}
 
-	ListNode(int val, ListNode next) {
+	public ListNode(int val, ListNode next) {
 		this.val = val;
 		this.next = next;
 	}
@@ -34,5 +34,13 @@ public class ListNode {
 			head = head.next;
 		}
 		System.out.print(" ] \n");
+	}
+
+	public int getVal() {
+		return val;
+	}
+
+	public void setVal(int val) {
+		this.val = val;
 	}
 }

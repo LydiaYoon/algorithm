@@ -1,5 +1,8 @@
 package leet.LinkedList;
 
+import leet.ListNode;
+import leet.NodeUtils;
+
 public class Solution3 {
 
 	public ListNode reverseList(ListNode head) {
@@ -60,19 +63,19 @@ public class Solution3 {
 		Solution3 solution = new Solution3();
 
 		ListNode[] nodes = new ListNode[5];
-		NodeUtils.initNode(nodes, 1);
-		NodeUtils.connectNode(nodes);
+		NodeUtils.initListNode(nodes, 1);
+		NodeUtils.connectListNode(nodes);
 		ListNode head = nodes[0];
 
 		System.out.println("before : ");
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		System.out.println();
 
 		head = solution.reverseList3(head); // [5, 4, 3, 2, 1]
 
 		System.out.println();
 		System.out.println("after : ");
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 	}
 	
 }

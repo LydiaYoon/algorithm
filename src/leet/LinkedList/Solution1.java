@@ -1,5 +1,8 @@
 package leet.LinkedList;
 
+import leet.ListNode;
+import leet.NodeUtils;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,16 +29,16 @@ public class Solution1 {
 		nodes[1] = new ListNode(5);
 		nodes[2] = new ListNode(1);
 		nodes[3] = new ListNode(9);
-		NodeUtils.connectNode(nodes);
+		NodeUtils.connectListNode(nodes);
 		ListNode head = nodes[0];
 		
 		System.out.println("before : ");
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		
 		solution.deleteNode(nodes[2]);
 //		solution.deleteNode(nodes[1]);
 		
 		System.out.println("after : ");
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 	}
 }

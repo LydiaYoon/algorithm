@@ -1,5 +1,8 @@
 package leet.LinkedList;
 
+import leet.ListNode;
+import leet.NodeUtils;
+
 public class Solution4 {
 
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -50,24 +53,24 @@ public class Solution4 {
 		input[0][0] = new ListNode(1);
 		input[0][1] = new ListNode(2);
 		input[0][2] = new ListNode(4);
-		NodeUtils.connectNode(input[0]);
+		NodeUtils.connectListNode(input[0]);
 
 		input[1][0] = new ListNode(1);
 		input[1][1] = new ListNode(3);
 		input[1][2] = new ListNode(4);
-		NodeUtils.connectNode(input[1]);
+		NodeUtils.connectListNode(input[1]);
 
 		heads[0] = input[0][0];
 		heads[1] = input[1][0];
-		
+
 		System.out.println("input : ");
-		NodeUtils.printNode(heads[0]);
-		NodeUtils.printNode(heads[1]);
+		NodeUtils.printListNode(heads[0]);
+		NodeUtils.printListNode(heads[1]);
 
 		ListNode output = solution.mergeTwoLists(heads[0], heads[1]);
 		System.out.println("output : ");
-		NodeUtils.printNode(output);
-		System.out.println("\n" + "==============================" + "\n");		
+		NodeUtils.printListNode(output);
+		System.out.println("\n" + "==============================" + "\n");
 
 		// TestCase 2
 		// Input: [ ], [ 0 ]
@@ -79,14 +82,14 @@ public class Solution4 {
 
 		heads[0] = case2[0];
 		heads[1] = case2[1];
-		
+
 		System.out.println("input : ");
-		NodeUtils.printNode(heads[0]);
-		NodeUtils.printNode(heads[1]);
+		NodeUtils.printListNode(heads[0]);
+		NodeUtils.printListNode(heads[1]);
 
 		output = solution.mergeTwoLists(heads[0], heads[1]);
 		System.out.println("output : ");
-		NodeUtils.printNode(output);
+		NodeUtils.printListNode(output);
 		System.out.println("\n" + "==============================" + "\n");
 
 		// TestCase 3
@@ -100,14 +103,13 @@ public class Solution4 {
 		heads[0] = case3[0];
 		heads[1] = case3[1];
 
-		
 		System.out.println("input : ");
-		NodeUtils.printNode(heads[0]);
-		NodeUtils.printNode(heads[1]);
+		NodeUtils.printListNode(heads[0]);
+		NodeUtils.printListNode(heads[1]);
 
 		output = solution.mergeTwoLists(heads[0], heads[1]);
 		System.out.println("output : ");
-		NodeUtils.printNode(output);
+		NodeUtils.printListNode(output);
 		System.out.println("\n" + "==============================" + "\n");
 
 	}

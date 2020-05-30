@@ -34,6 +34,7 @@
 | 17 | [[Linked List] Merge Two Sorted Lists](./src/leet/LinkedList/Solution4.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/93/linked-list/771/ "문제 보기") |
 | 18 | [[Linked List] Palindrome Linked List](./src/leet/LinkedList/Solution5.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/93/linked-list/772/ "문제 보기") |
 | 19 | [[Linked List] Linked List Cycle](./src/leet/LinkedList/Solution6.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/93/linked-list/773/ "문제 보기") |
+| 20 | [[Trees] Maximum Depth of Binary Tree](./src/leet/Trees/Solution1.java "코드 보기") | easy | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://leetcode.com/explore/featured/card/top-interview-questions-easy/94/trees/555/ "문제 보기") |
 <br/>
 <br/>
 <br/>  

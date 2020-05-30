@@ -1,5 +1,8 @@
 package leet.LinkedList;
 
+import leet.ListNode;
+import leet.NodeUtils;
+
 public class Solution2 {
 
 	public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -46,15 +49,15 @@ public class Solution2 {
 
 		// example 1
 		ListNode[] case1 = new ListNode[5];
-		NodeUtils.initNode(case1, 1);
-		NodeUtils.connectNode(case1);
+		NodeUtils.initListNode(case1, 1);
+		NodeUtils.connectListNode(case1);
 		ListNode head = case1[0];
 		
 		System.out.println("before : ");
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		head = solution.removeNthFromEnd(head, 2); // [1, 2, 3, 5]
 		System.out.println("after : ");
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 
 		System.out.println();
 		
@@ -62,10 +65,10 @@ public class Solution2 {
 		ListNode case2 = new ListNode(1, null);
 
 		System.out.println("before : ");
-		NodeUtils.printNode(case2);
+		NodeUtils.printListNode(case2);
 		case2 = solution.removeNthFromEnd(case2, 1); // []
 		System.out.println("after : ");
-		NodeUtils.printNode(case2);
+		NodeUtils.printListNode(case2);
 		
 	}
 }

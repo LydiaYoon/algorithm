@@ -1,5 +1,8 @@
 package leet.LinkedList;
 
+import leet.ListNode;
+import leet.NodeUtils;
+
 public class Solution5 {
 
 	public boolean isPalindrome(ListNode head) {
@@ -40,11 +43,11 @@ public class Solution5 {
 		// Input: [ 1, 2 ]
 		// Output: false
 		ListNode[] case1 = new ListNode[2];
-		NodeUtils.initNode(case1, 1);
-		NodeUtils.connectNode(case1);
+		NodeUtils.initListNode(case1, 1);
+		NodeUtils.connectListNode(case1);
 		head = case1[0];
 
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
 
 		// TestCase 2
@@ -55,10 +58,10 @@ public class Solution5 {
 		case2[1] = new ListNode(2);
 		case2[2] = new ListNode(2);
 		case2[3] = new ListNode(1);
-		NodeUtils.connectNode(case2);
+		NodeUtils.connectListNode(case2);
 		head = case2[0];
 
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
 
 		// TestCase 3
@@ -67,7 +70,7 @@ public class Solution5 {
 		ListNode case3 = null;
 		head = case3;
 
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
 
 		// TestCase 4
@@ -76,7 +79,7 @@ public class Solution5 {
 		ListNode case4 = new ListNode(1);
 		head = case4;
 
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
 
 		// TestCase 5
@@ -85,10 +88,10 @@ public class Solution5 {
 		ListNode[] case5 = new ListNode[2];
 		case5[0] = new ListNode(0);
 		case5[1] = new ListNode(0);
-		NodeUtils.connectNode(case5);
+		NodeUtils.connectListNode(case5);
 		head = case5[0];
 
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		System.out.println("RES: " + solution.isPalindrome(head) + "\n\n");
 
 		// TestCase 6
@@ -99,10 +102,10 @@ public class Solution5 {
 		case6[1] = new ListNode(2);
 		case6[2] = new ListNode(2);
 		case6[3] = new ListNode(1);
-		NodeUtils.connectNode(case6);
+		NodeUtils.connectListNode(case6);
 		head = case6[0];
 
-		NodeUtils.printNode(head);
+		NodeUtils.printListNode(head);
 		System.out.println("RES: " + solution.isPalindrome(head));
 
 	}
