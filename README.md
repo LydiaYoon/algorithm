@@ -1,7 +1,7 @@
 # Algorithm
 **알고리즘 스터디**  
 ✅ 2020년 3월 14일부터 매주 토요일에 12시부터🕛 17시까지🕔 5시간동안 알고리즘 문제를 풀고 있습니다.  
-✅ 현재는 LeetCode에서 Top Interview Questions (Easy Collection)를 풀고있습니다. 🔥
+✅ 현재는 LeetCode에서 Top Interview Questions (Easy Collection)를 풀고있습니다. 🔥  
 ✅ 6월 한달간 잠시 휴식
 <br/>
 <br/>
