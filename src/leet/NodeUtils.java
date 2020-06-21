@@ -61,19 +61,30 @@ public class NodeUtils {
 
 	// TreeNode 배열 안의 node들을 순서대로 전부 연결
 	public static void connectTreeNode(TreeNode[] nodes) {
-		for (int i = 0; i <= (int) Math.sqrt(nodes.length); i++) {
-			if (nodes[i] != null) {
-				int left = ((i + 1) * 2) - 1;
-				int right = (i + 1) * 2;
+		for (int i = 0; i < nodes.length; i++) {
 
-				if (nodes[left] != null) {
-					nodes[i].left = nodes[left];
-				}
-				if (nodes[right] != null) {
-					nodes[i].right = nodes[right];
-				}
-			}
+			Double log10 = i < 1 ? 0 : Math.log10(i + 1);
+			Double log2 = log10 / Math.log10(2);
+
+//			System.out.printf("[%d] %f \n", i, Math.log10(i) / Math.log10(2));
+			System.out.printf("[%2d] %f %d\n", i + 1, log10, (int) (Math.round(log2)));
 		}
+//		for (int i = 0; i < Math.round(Math.sqrt(nodes.length)) - 1; i++) {
+//			if (nodes[i] != null) {
+//				int left = ((i + 1) * 2) - 1;
+//				int right = (i + 1) * 2;
+//
+//				System.out.printf("  %d   \n", i);
+//				System.out.printf("%d   %d", left, right);
+//				System.out.printf("\n\n");
+//				if (nodes[left] != null) {
+//					nodes[i].left = nodes[left];
+//				}
+//				if (nodes[right] != null) {
+//					nodes[i].right = nodes[right];
+//				}
+//			}
+//		}
 	}
 
 	// Node 배열 안의 node들의 값을 순서대로 출력
