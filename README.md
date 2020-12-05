@@ -1,13 +1,9 @@
 # Algorithm
 **알고리즘 스터디**  
-✅ 2020년 3월 14일부터 매주 토요일에 12시부터🕛 17시까지🕔 5시간동안 알고리즘 문제를 풀고 있습니다.  
-✅ 현재는 LeetCode에서 Top Interview Questions (Easy Collection)를 풀고있습니다. 🔥  
-✅ 6월 한달간 잠시 휴식
-<br/>
-<br/>
-**같이 공부하는 다른 사람들의 저장소 구경하기**  
-➡ [sh040080](https://github.com/sh040080/Leetcode)  
-➡ [limforever00](https://github.com/limforever00/leetcode)
+| | <center>기간</center> | <center>목표</center> | <center>문제</center> |
+| -- | -- | -- | -- |  
+| ✅ | 2020.3.14 ~ 2020.5.30 | 매주 토요일 5시간 문제 풀기 | LeetCode Top Interview Questions <br/>(Easy Collection)    
+| 🔥 | 2020.12.5 ~ | 주말에 최소 한 문제 이상 풀기 | Programmers 코딩테스트 연습 문제  
 <br/>
 <br/>
 <br/>  
@@ -54,3 +50,12 @@
 | :--: | -- | :--: | :--: | :--: |
 | 1 | [튜플](./src/kakao/Solution2.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/64065 "문제 보기") |
 | 2 | [불량 사용자](./src/kakao/Solution3.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/64064 "문제 보기") |
+<br/>
+<br/>
+<br/>
+
+**같이 공부하는 다른 사람들의 저장소 구경하기**  
+➡ [sh040080](https://github.com/sh040080/Leetcode)  
+➡ [limforever00](https://github.com/limforever00/leetcode)
+<br/>
+<br/>
