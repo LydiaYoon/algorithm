@@ -41,6 +41,7 @@
 | :--: | -- | :--: | :--: | :--: |  
 | 1 | [[데모 테스트] 프로그래밍 1](./src/programmers/DemoTest/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](./src/programmers/DemoTest/Question1.md "문제 보기") |  
 | 2 | [[완전탐색] 모의고사](./src/programmers/BruteForce/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/42840 "문제 보기") |  
+| 3 | [[Hash] 완주하지 못한 선수](./src/programmers/Hash/Solution1.java "코드 보기") | Level1 | <img src=".\img\java.png" alt="Java" height="36" /> | [url](https://programmers.co.kr/learn/courses/30/lessons/42576 "문제 보기") |  
 <br/>
 <br/>
 <br/>  
