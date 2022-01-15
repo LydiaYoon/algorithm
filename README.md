@@ -3,7 +3,7 @@
 | | <center>기간</center> | <center>목표</center> | <center>문제</center> |
 | -- | -- | -- | -- |  
 | ✅ | 2020.03.14 ~ 2020.05.30 | 매주 토요일 5시간 문제 풀기 | LeetCode Top Interview Questions <br/>(Easy Collection)    
-| ✅ | 2020.12.5 ~ 2021.01.23 | 주말에 최소 한 문제 이상 풀기 | Programmers 코딩테스트 연습 문제  
+| ✅ | 2020.12.05 ~ 2021.01.23 | 주말에 최소 한 문제 이상 풀기 | Programmers 코딩테스트 연습 문제  
 <br/>
 <br/>
 <br/>  
